@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "exchange": {
+      "command": "exchange-mcp-server",
+      "env": {
+        "EXCHANGE_MCP_ENV_FILE": "C:\\Users\\you\\.config\\exchange-mcp\\.env"
+      }
+    },
+    "exchange-uvx": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/Rirychh/exchange-mcp-server", "exchange-mcp-server"],
+      "env": {
+        "EXCHANGE_MCP_ENV_FILE": "/Users/you/.config/exchange-mcp/.env"
+      }
+    }
+  }
+}

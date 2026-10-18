@@ -1,0 +1,19 @@
+{
+  "rooms": [
+    {
+      "email": "room-3a@example.com",
+      "name": "Room 3A",
+      "capacity": 8,
+      "floor": "3F",
+      "equipment": ["TV", "webcam"]
+    },
+    {
+      "email": "boardroom@example.com",
+      "name": "Boardroom",
+      "capacity": 20,
+      "floor": "5F",
+      "equipment": ["projector", "video conferencing"],
+      "invite_as": "attendee"
+    }
+  ]
+}
